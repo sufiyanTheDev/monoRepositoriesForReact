@@ -1,1 +1,1 @@
-cd ./scss && npx lint-staged
+cd ./packages/scss && npx lint-staged
