@@ -20,7 +20,8 @@
     "format": "prettier --write \"**/*.{scss,css,js,jsx,ts,tsx}\"",
     "prepare": "cd ../../ && husky install",
     "build:scss": "sass ./src/imports.scss ./src/dev-lib/global.css",
-    "build:scsscompressed": "sass ./src/imports.scss ./src/lib/global.css --no-source-map --style=compressed"
+    "build:scsscompressed": "sass ./src/imports.scss ./lib/global.css --no-source-map --style=compressed",
+    "build": "sass ./src/imports.scss ./lib/global.css --no-source-map"
   },
   "lint-staged": {
     "*.scss": "yarn lint:fix",
