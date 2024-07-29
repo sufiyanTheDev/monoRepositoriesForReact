@@ -18,6 +18,8 @@
   },
   "scripts": {
     "format": "yarn lerna run format",
-    "build:scss": "yarn lerna run build:scss"
+    "build:scss": "yarn lerna run build:scss",
+    "dev": "yarn lerna run dev",
+    "build": "yarn lerna run build"
   }
 }
