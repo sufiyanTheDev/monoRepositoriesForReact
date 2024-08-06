@@ -1,6 +1,6 @@
 import React  from "react";
 import ReactDOM from "react-dom/client";
-import {Button} from '@ds.e/react';
+import {Button, Color, Spacing} from '@ds.e/react';
 import '@ds.e/scss/lib/global.css';
 
 
@@ -12,5 +12,8 @@ if (!rootElement) {
 const root = ReactDOM.createRoot(rootElement);
 
 root.render(
+    <>
       <Button label="sufiyan gafoor"/>
+      <Color hexCode="#000000"  height={Spacing.sm}/>
+    </>
   );
