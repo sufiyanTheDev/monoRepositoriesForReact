@@ -5,6 +5,7 @@
   "license": "MIT",
   "devDependencies": {
     "@types/react": "^18.3.3",
+    "prettier": "^3.3.3",
     "react": "^18.3.1",
     "rollup": "^4.19.1",
     "rollup-plugin-typescript2": "^0.36.0",
@@ -12,6 +13,12 @@
   },
   "scripts": {
     "build": "rollup -c",
-    "dev": "yarn build --watch"
+    "dev": "yarn build --watch",
+    "format": "prettier --write \"**/*.{scss,css,js,jsx,ts,tsx}\""
+  },
+  "lint-staged": {
+    "*.{scss,css,js,jsx,ts,tsx}": [
+      "prettier --write"
+    ]
   }
 }

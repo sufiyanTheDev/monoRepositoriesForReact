@@ -1,1 +1,2 @@
 cd ./packages/scss && npx lint-staged
+cd ../react && npx lint-staged
