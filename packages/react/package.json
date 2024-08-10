@@ -20,5 +20,8 @@
     "*.{scss,css,js,jsx,ts,tsx}": [
       "prettier --write"
     ]
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
