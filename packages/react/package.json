@@ -1,5 +1,5 @@
 {
-  "name": "@ds.e/react",
+  "name": "@tuto-mono-check/react",
   "version": "0.2.0",
   "main": "lib/index.js",
   "license": "MIT",
@@ -23,5 +23,6 @@
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "gitHead": "f9729002cf7fe3c63b281681fe63e80321d6ed1f"
 }

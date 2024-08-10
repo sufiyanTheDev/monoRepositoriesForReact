@@ -1,5 +1,5 @@
 {
-  "name": "@ds.e/scss",
+  "name": "@tuto-mono-check/scss",
   "version": "0.2.0",
   "main": "index.js",
   "license": "MIT",
@@ -33,5 +33,6 @@
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "gitHead": "f9729002cf7fe3c63b281681fe63e80321d6ed1f"
 }

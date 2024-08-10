@@ -13,5 +13,5 @@ export default {
         preserveModules: true,
     },
     plugins: [Ts()],
-    external: ['react','@ds.e/foundation']
+    external: ['react','@tuto-mono-check/foundation']
 }
