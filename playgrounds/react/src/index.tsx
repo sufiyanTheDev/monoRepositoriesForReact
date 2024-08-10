@@ -1,8 +1,8 @@
 import React  from "react";
 import ReactDOM from "react-dom/client";
-import {Button, Color} from '@sufiyan/react';
-import { Spacing } from '@sufiyan/foundation';
-import '@sufiyan/scss/lib/global.css';
+import { Button, Color } from "@ds.e/react";
+import { Spacing } from '@ds.e/foundation'; 
+import '@ds.e/scss/lib/global.css';
 
 
 const rootElement = document.getElementById('root');

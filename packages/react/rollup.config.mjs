@@ -13,5 +13,5 @@ export default {
         preserveModules: true,
     },
     plugins: [Ts()],
-    external: ['react']
+    external: ['react','@ds.e/foundation']
 }
